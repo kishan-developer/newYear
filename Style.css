@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color: #212121; */
+    display: grid;
+}
+form{
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+    display: none;
+
+}
+
+form input{
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+.buttons {
+    margin: auto;
+     width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+button{
+    /* width: fit-content; */
+    padding: 1rem 2rem;
+}
+
+.newYearText {
+    font-size:8rem;
+    /* color: white; */
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.times {
+    width:fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    gap: 20px;
+    color: black;
+    /* display: none; */
+
+}
+.times span{
+    font-size: 5rem;
+    width: auto;
+    border: 2px solid black;
+    font-weight:900;
+    padding: 10px;
+
+}
+
+
+@media screen and (max-width:950px) { 
+    body{
+        background-color:rgb(61, 218, 223);
+    }
+    .newYearText {
+        font-size: 6rem;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    body{
+        background-color:red;
+    }
+    .newYearText {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        background-color:green;
+    }
+    .newYearText{
+        color: red;
+        font-size:3rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+    body{
+        background-color:yellow;
+    }
+    .newYearText {
+        color:navy;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:260px) {
+    body{
+        background-color:green;
+    }
+    .newYearText {
+        color:rgb(229, 229, 241);
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width:130px) {
+    body{
+        background-color:green;
+    }
+    .newYearText {
+        color:rgb(229, 229, 241);
+        font-size:0.5rem;
+    }
+}
+
+
